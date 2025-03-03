@@ -1,0 +1,29 @@
+/* Apply these styles to all elements */
+/* use simple reset CSS code */
+* {
+    margin: 0;
+    padding: 0;
+    /* Set box-sizing to border-box for all elements (includes padding and border in element's total width/height) */
+    box-sizing: border-box;
+}
+
+/* Using a linear gradient for the background */
+body {
+    background-image: linear-gradient(120deg, #e2c35d ,#d88771);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    /* Set the minimum height of body to the full height of the viewport */
+    min-height: 100vh;
+}
+
+header{
+    font-size: 1.5rem;
+}
+
+header,form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
